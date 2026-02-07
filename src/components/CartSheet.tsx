@@ -24,7 +24,7 @@ const CartSheet = ({ open, onClose }: CartSheetProps) => {
     }
 
     if (phoneNumber.trim().length < 10) {
-      toast({ title: "Enter a valid phone number", variant: "destructive" });ls
+      toast({ title: "Enter a valid phone number", variant: "destructive" });
       return;
     }
 
